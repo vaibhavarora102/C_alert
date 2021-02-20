@@ -19,10 +19,10 @@ def uploadvideo(request):
     d = {"video": path}
     return render(request, 'playvideo.html', {'x': d})
 
-model = "./model/crime_alert.h5"
+model = "crime_alert.h5"
 
 model= tf.keras.models.load_model(model)
-test_image = "./images/criminal_activity/50.jpg"
+test_image = "videos/demo.mp4"
 
 def imgprep(test_image):
     from tensorflow.keras.preprocessing import image
@@ -38,17 +38,13 @@ def imgprep(test_image):
 def pred(model, test_image):
     test_image = imgprep(test_image)
     predictions = model.predict(test_image)
-
     predicted_bboxes = predictions[1][0][0:4]
     prediction_Score = predictions[0][0][0]
-
     if prediction_Score < 0.5:
         x = "criminal_case"
     else:
         x = "normal case"
-
     return x, predicted_bboxes
 
 x,prediction_box =pred(model, test_image)
-
 print(x)
