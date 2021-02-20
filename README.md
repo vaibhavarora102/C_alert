@@ -26,3 +26,8 @@ So along with CCTV footage, if we embed this detection feature to it will be mor
 - To build up a system which could be confined to specific user only in concern to security purpose.
 - Face recognition of person identified to be culprit for whole condition and sending same information to officials.
 
+***
+## Use Webapp
+- Firstly install requirements using `pip install -r requirements.txt`
+- Then run the following command `python manage.py runserver` to start the Django server
+- Enjoy!
