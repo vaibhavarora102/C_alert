@@ -1,3 +1,4 @@
+import 'package:calert/screens/video.dart';
 import 'package:calert/widgets/roundbutton.dart';
 import 'package:flutter/material.dart';
 import 'package:calert/constants.dart';
@@ -120,7 +121,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   horizontalPadding: 30,
                   fontSize: 14,
                   verticalPadding: 12,
-                  press: () {},
+                  press: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      return Video();
+                    }));
+                  },
                   color: white,
                   text: 'start',
                   radius: 30,

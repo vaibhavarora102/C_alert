@@ -82,7 +82,7 @@ class AboutUs extends StatelessWidget {
               textAlign: TextAlign.left,
               text: TextSpan(
                 text:
-                    "Lorem Ipsum is simply dummy text of the ping and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown per took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leapo electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "Burglary being the serious problem can be easily detected by our application. This application will help to reduce burgulary to some extent by analysing and alerting. It detects the suspicious behavior such as opening of a door with some tools, trying to enter in the house by climbing walls. We can also send the location to the near by police station or the owner.",
                 style: TextStyle(
                   fontSize: 15,
                   fontFamily: 'Montserrat',
