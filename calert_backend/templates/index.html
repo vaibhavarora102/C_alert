@@ -5,6 +5,21 @@
     <title>Index</title>
 </head>
 <body>
-
+<div>
+    <form action="uploadvideo" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="video">
+        <input type="submit" value="Save Video">
+        <hr>
+        <p>
+        <h3>Working</h3>
+        <ol>
+            <li>Video saved in backend storage</li>
+            <li>Opens a new page</li>
+            <li>Plays video by fetching from backend</li>
+        </ol>
+        </p>
+    </form>
+</div>
 </body>
 </html>

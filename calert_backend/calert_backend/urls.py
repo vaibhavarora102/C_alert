@@ -22,7 +22,8 @@ from functions import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index',index),
+    path('', index),
+    path('uploadvideo', uploadvideo)
 ]
 # if settings.DEBUG:
 #     urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
