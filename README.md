@@ -1,4 +1,7 @@
 # C_alert
+
+Drive link for trained model: https://drive.google.com/drive/folders/1z9ZXVqHpm1FF2EGfw8WztWrY0FBtwEST?usp=sharing
+
 ### What is our problem? How are we solving this?
 
 Out of the major world problems we are facing today burglary/ robbery is one of them. Due to this serious problem, we have a fear of insecurity in some way. While robbery a lot of precious lives came to an end and a lot of capital got wasted in unfair means.
